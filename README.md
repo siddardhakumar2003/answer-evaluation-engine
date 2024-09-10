@@ -1,70 +1,38 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Introduction
+The project, titled "Answer Sheet Evaluation," aims to develop an intelligent
+system for automatically evaluating and grading written answer sheets. This
+system leverages advanced natural language processing (NLP) techniques to
+assess the quality and relevance of the answers provided by students. By
+automating the evaluation process, the system intends to reduce the manual
+workload on educators, enhance grading consistency, and provide immediate
+feedback to students.
+## Languages
+1. Python: The primary language for implementing backend logic, NLP
+algorithms, and integrating various libraries.
+2. JavaScript: Used for frontend development to create an interactive user
+interface.
+3. HTML/CSS: For designing and styling the web application interface.
+4. Node.js/React.js: Environment for running JavaScript.
+## Libraries and Frameworks
+1. NLP Libraries:
+• Spacy: A popular NLP library used for text processing tasks such as
+tokenization, part-of-speech tagging, and named entity recognition.
+2. Happy Transformer: A user-friendly wrapper for transformer models,
+facilitating tasks like text classification and question answering.
+3. Text Extraction:
+• Amazon Textract: A service that automatically extracts text and data
+from scanned documents, used to digitize handwritten or printed
+answer sheets.
+4. Sentence Transformer: For generating sentence embeddings that can be
+used to compare the semantic similarity between student answers and
+model answers.
+5. Database:
+• MongoDB: A NoSQL database used for storing answer sheets,
+evaluation results, and other relevant data in a flexible and scalable
+manner.
+## Methodology
+1. Data Collection: Collection if answers from the students answer sheets using
+OCR tool.
+2. Evaluation of Answer: Checking the answers for grammar, spelling mistakes
+and getting the similarity score.
+3. Data storage and display: Storing the marks in the data base using mongo db. 
