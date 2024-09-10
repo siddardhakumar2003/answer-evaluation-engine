@@ -1,0 +1,5 @@
+pip install pymongo happytransformer python-dotenv boto3 pyspellchecker  spacy
+python -m spacy download en_core_web_sm
+npm i axios
+npm i
+pip install -U sentence-transformers

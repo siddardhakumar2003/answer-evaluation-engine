@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+  background-color: #f4f4f9;
+}
+
+/* Loading and Completed Page Styles */
+.Loading {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.title {
+  color: #007bff;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.completed-page h1 {
+  color: #28a745;
+}
+
+.button-table {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-table:hover {
+  background-color: #0056b3;
+}
+
+/* Marks List Styles */
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.t {
+  width: 100%;
+  max-width: 800px; /* Adjust as needed */
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+table th, table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f4f4f9;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+thead th {
+  color: #007bff;
+}
